@@ -11,7 +11,7 @@ pipeline {
  }
  stage('run') {
  steps {
- sh 'java  Rectangular 7 9'
+ sh 'java  Rectangulator 7 9'
  }
  }
 
